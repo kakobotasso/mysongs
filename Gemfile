@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'rails'
+gem 'jquery-rails'
+gem 'pg'
+gem 'bcrypt-ruby'
 
 group :assets do
   gem 'sass-rails'
@@ -9,7 +12,6 @@ group :assets do
   gem 'uglifier'
 end
 
-gem 'jquery-rails'
 
 group :development, :test do
   gem 'mysql2'
@@ -23,4 +25,3 @@ group :development, :test do
   gem 'factory_girl'
 end
 
-gem 'pg'
